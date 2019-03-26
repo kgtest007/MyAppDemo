@@ -11,4 +11,7 @@ public class SeriousTest extends TestCase {
         public void testSeriousness() throws Exception {
                 assertTrue( "fun".toUpperCase().equals( "FUN" ) );
         }
+         public void testFunny() throws Exception {
+                assertTrue( "fun".toUpperCase().equals( "Fun" ) );
+        }
 }
