@@ -9,7 +9,7 @@
     <center>
     	<h1>Devops Demo</h1>
     	<p> This is a demo app which will be used to demonstrate the full stack of CI CD implementation</p>
-        <h1> For Oracle Nov 23 </h1>
+        <h1 style="color:green"> March 26 </h1>
         <h1> Change 1 </h1>
     </center>
         <form method="post" action="login.jsp">
