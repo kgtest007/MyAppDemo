@@ -1,0 +1,19 @@
+- hosts: all
+  become: true
+  tasks:
+  - name: "Install java"
+    apt:
+      name: openjdk-8-jdk
+      update_cache: yes
+  - name: "Install tomcat"
+    apt:
+      name: tomcat8
+      update_cache: yes
+  - name: "Start tomcat8"
+    service:
+      name: tomcat8
+      state: started
+  - name: "Deploy war"
+    copy:
+      src: /var/lib/jenkins/workspace/aditya/java-pipeline/target/MyAppDemo.war
+      dest: /var/lib/tomcat8/webapps/
