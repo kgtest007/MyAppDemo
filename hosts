@@ -1,4 +1,4 @@
 [prod]
 3.85.164.37 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/ubuntu_id_rsa
 [ua]
-52.90.85.16
+52.90.85.162
