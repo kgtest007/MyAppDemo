@@ -15,5 +15,5 @@
       state: started
   - name: "Deploy war"
     copy:
-      src: /var/lib/jenkins/workspace/aditya/java-pipeline/target/MyAppDemo.war
+      src: target/MyAppDemo.war
       dest: /var/lib/tomcat8/webapps/
